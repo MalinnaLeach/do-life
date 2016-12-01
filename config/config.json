@@ -16,7 +16,7 @@
   "production": {
     "username": null,
     "password": null,
-    "database": {"ENV": "DATABASE_URL"},
+    "database": {"DATABASE_URL"},
     "dialect": "postgres""
   }
 }
