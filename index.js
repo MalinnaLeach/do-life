@@ -5,7 +5,7 @@ const express = require('express'),
 const router = require('./router');
 var models = require('./models');
 
-var port = env.PORT || 3000;
+var port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
